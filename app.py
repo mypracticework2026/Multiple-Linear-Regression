@@ -312,25 +312,16 @@ if predict_btn:
 
     if has_comp:
         top_similar = similar.nlargest(3, "Price_AED")
-        st.markdown(f"""
-        <div style="margin: 0 48px 48px 48px;">
-            <div style="font-family:'Cormorant Garamond',serif; font-size:0.65rem; letter-spacing:0.35em;
-                        text-transform:uppercase; color:#C9A84C; margin-bottom:24px;">
-                Comparable Properties in {location}
-            </div>
-            <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:2px;">
-        """, unsafe_allow_html=True)
-
+        cards_html = ""
         for i, (_, row) in enumerate(top_similar.iterrows()):
             is_highlight = i == 0
-            bg    = "linear-gradient(135deg,#1a1408,#100e06)" if is_highlight else "#0e0e0e"
-            bdr   = "#C9A84C" if is_highlight else "#1e1a12"
-            pcol  = "#C9A84C" if is_highlight else "#f0e8d8"
-            badge = "<div style='position:absolute;top:16px;right:16px;font-size:0.55rem;letter-spacing:0.2em;color:#C9A84C;background:rgba(201,168,76,0.1);padding:4px 10px;border:1px solid rgba(201,168,76,0.3);'>HIGHEST</div>" if is_highlight else ""
+            bg         = "linear-gradient(135deg,#1a1408,#100e06)" if is_highlight else "#0e0e0e"
+            bdr        = "#C9A84C" if is_highlight else "#1e1a12"
+            pcol       = "#C9A84C" if is_highlight else "#f0e8d8"
+            badge      = "<div style='position:absolute;top:16px;right:16px;font-size:0.55rem;letter-spacing:0.2em;color:#C9A84C;background:rgba(201,168,76,0.1);padding:4px 10px;border:1px solid rgba(201,168,76,0.3);'>HIGHEST</div>" if is_highlight else ""
             furn_label = "Furnished" if row["Furnished"] == "Yes" else "Unfurnished"
-            st.markdown(f"""
-            <div style="background:{bg}; border:1px solid {bdr};
-                        padding:28px 24px; position:relative;">
+            cards_html += f"""
+            <div style="background:{bg}; border:1px solid {bdr}; padding:28px 24px; position:relative;">
                 {badge}
                 <div style="font-family:'Cormorant Garamond',serif; font-size:1.6rem; font-weight:300;
                             color:{pcol}; margin-bottom:6px;">
@@ -343,9 +334,19 @@ if predict_btn:
                     {row['View']} View &nbsp;·&nbsp; {furn_label}
                 </div>
             </div>
-            """, unsafe_allow_html=True)
+            """
 
-        st.markdown("</div></div>", unsafe_allow_html=True)
+        st.markdown(f"""
+        <div style="margin: 0 48px 48px 48px;">
+            <div style="font-family:'Cormorant Garamond',serif; font-size:0.65rem; letter-spacing:0.35em;
+                        text-transform:uppercase; color:#C9A84C; margin-bottom:24px;">
+                Comparable Properties in {location}
+            </div>
+            <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:2px;">
+                {cards_html}
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
 
 else:
     st.markdown("""
