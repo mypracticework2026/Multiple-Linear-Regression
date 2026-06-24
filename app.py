@@ -73,8 +73,7 @@ section[data-testid="stSidebar"] > div {
     box-shadow: 0 8px 40px rgba(201,168,76,0.5);
     transform: translateY(-1px);
 }
-#MainMenu { visibility: hidden; }
-footer { visibility: hidden; }
+#MainMenu, footer, header { visibility: hidden; }
 </style>
 """, unsafe_allow_html=True)
 
