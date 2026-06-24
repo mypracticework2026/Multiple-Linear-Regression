@@ -28,7 +28,7 @@ html, body, [class*="css"] {
     background: #080808;
 }
 
-/* ── Sidebar ── */
+/* Sidebar */
 section[data-testid="stSidebar"] {
     background: #0e0e0e;
     border-right: 1px solid #2a2218;
@@ -37,7 +37,7 @@ section[data-testid="stSidebar"] > div {
     padding-top: 0;
 }
 
-/* ── Select boxes ── */
+/* Select boxes */
 .stSelectbox label {
     color: #8a7a5a !important;
     font-size: 0.7rem !important;
@@ -56,7 +56,7 @@ section[data-testid="stSidebar"] > div {
     border-color: #C9A84C !important;
 }
 
-/* ── Sliders ── */
+/* Sliders */
 .stSlider label {
     color: #8a7a5a !important;
     font-size: 0.7rem !important;
@@ -68,7 +68,7 @@ section[data-testid="stSidebar"] > div {
     background: #C9A84C !important;
 }
 
-/* ── Button ── */
+/* Button */
 .stButton > button {
     background: linear-gradient(135deg, #C9A84C 0%, #e8c96a 50%, #C9A84C 100%);
     color: #080808;
@@ -89,7 +89,7 @@ section[data-testid="stSidebar"] > div {
     transform: translateY(-1px);
 }
 
-/* ── Hide streamlit chrome ── */
+/* Hide streamlit chrome */
 #MainMenu, footer, header { visibility: hidden; }
 .stDeployButton { display: none; }
 div[data-testid="stToolbar"] { display: none; }
