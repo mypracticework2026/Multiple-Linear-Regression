@@ -13,9 +13,10 @@ st.set_page_config(
 )
 
 # ─── CSS ──────────────────────────────────────────────────────────────────────
-st.markdown("""
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+st.markdown(f"""
+<div style="padding: 64px 48px 48px 48px; background: #080808;">
+...
+""", unsafe_allow_html=True)
 
 html, body, [class*="css"] {
     font-family: 'Inter', sans-serif;
