@@ -1,0 +1,50 @@
+Location,Property_Type,Bedrooms,Bathrooms,Size_sqft,Age,View,Furnished,Price_AED
+Dubai Marina,Apartment,1,2,820,8,Sea,Yes,1580000
+Dubai Marina,Apartment,2,3,1250,6,Marina,No,2450000
+JVC,Apartment,1,2,780,4,City,No,1400000
+JVC,Apartment,2,3,1100,3,Community,Yes,1980000
+Business Bay,Apartment,1,2,900,5,Canal,Yes,1750000
+Business Bay,Apartment,2,3,1350,7,City,No,2600000
+Downtown Dubai,Apartment,2,3,1500,5,Burj Khalifa,Yes,6200000
+Downtown Dubai,Apartment,3,4,1900,4,Fountain,Yes,8800000
+Palm Jumeirah,Apartment,2,3,1600,10,Sea,Yes,5200000
+Palm Jumeirah,Apartment,3,4,2100,8,Sea,Yes,7800000
+Dubai Hills Estate,Villa,3,4,2800,3,Garden,No,4800000
+Dubai Hills Estate,Villa,4,5,3500,2,Park,Yes,6200000
+Arabian Ranches,Villa,3,4,3000,12,Community,No,4200000
+Arabian Ranches,Villa,4,5,3800,10,Park,Yes,5600000
+Jumeirah Village Circle,Villa,3,4,2600,6,Community,No,3500000
+Jumeirah Village Circle,Villa,4,5,3200,5,City,Yes,4600000
+Al Furjan,Villa,3,4,2900,7,Community,No,3900000
+Al Furjan,Villa,4,5,3600,6,Park,Yes,5200000
+Dubai Silicon Oasis,Apartment,1,2,750,5,City,No,1100000
+Dubai Silicon Oasis,Apartment,2,3,1050,4,Community,Yes,1600000
+JBR,Apartment,1,2,900,9,Sea,Yes,1900000
+JBR,Apartment,2,3,1350,8,Marina,No,2800000
+JBR,Apartment,3,4,1700,7,Sea,Yes,4200000
+Business Bay,Apartment,1,2,780,6,Canal,No,1550000
+Business Bay,Apartment,2,3,1200,5,Burj View,Yes,2400000
+Downtown Dubai,Apartment,1,2,950,6,Burj Khalifa,No,3800000
+Downtown Dubai,Apartment,2,3,1400,4,City,Yes,5400000
+Dubai Marina,Apartment,1,2,700,10,City,No,1350000
+Dubai Marina,Apartment,2,3,1150,7,Sea,Yes,2550000
+JVC,Apartment,1,2,650,5,Community,Yes,1150000
+JVC,Apartment,2,3,1000,4,City,No,1750000
+Dubai Hills Estate,Villa,3,4,2600,4,Park,Yes,4500000
+Dubai Hills Estate,Villa,4,5,3800,3,Golf,Yes,6900000
+Arabian Ranches,Villa,3,4,2800,11,Garden,No,4000000
+Arabian Ranches,Villa,4,5,3600,9,Park,Yes,5400000
+Al Furjan,Villa,3,4,2700,8,Community,No,3700000
+Al Furjan,Villa,4,5,3400,7,Park,Yes,5000000
+Dubai Silicon Oasis,Apartment,1,2,700,6,Community,No,1000000
+Dubai Silicon Oasis,Apartment,2,3,980,5,City,Yes,1500000
+Arjan,Apartment,1,2,720,4,Community,No,1050000
+Arjan,Apartment,2,3,1050,3,Park,Yes,1550000
+Damac Hills,Villa,3,4,2900,5,Golf,No,4300000
+Damac Hills,Villa,4,5,3600,4,Golf,Yes,5800000
+Mudon,Villa,3,4,3000,7,Community,No,4100000
+Mudon,Villa,4,5,3800,6,Park,Yes,5500000
+Mirdif,Villa,3,4,2800,15,Community,No,3200000
+Mirdif,Villa,4,5,3500,14,City,Yes,4200000
+Dubai Creek Harbour,Apartment,1,2,800,3,Creek,Yes,1900000
+Dubai Creek Harbour,Apartment,2,3,1200,2,Creek,Yes,2900000
