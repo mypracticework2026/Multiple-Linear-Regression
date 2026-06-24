@@ -242,7 +242,7 @@ def load_data():
 
 @st.cache_resource
 def load_model():
-    with open(os.path.join(BASE_DIR, "apk1.pkl"), "rb") as f:
+    with open(os.path.join(BASE_DIR, "MultiRegmodel.pkl"), "rb") as f:
         return pickle.load(f)
 
 df = load_data()
